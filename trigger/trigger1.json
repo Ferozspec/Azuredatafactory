@@ -1,0 +1,19 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"description": "need to copy dummy.csv to another storage account",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2023-12-14T00:55:00",
+				"endTime": "2023-12-14T00:57:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
