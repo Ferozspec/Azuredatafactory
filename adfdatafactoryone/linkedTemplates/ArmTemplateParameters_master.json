@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdatafactoryone"
+		},
+		"ADFLS_connectionString": {
+			"value": ""
+		},
+		"ADFLS2_connectionString": {
+			"value": ""
+		},
+		"ADFLSonly1_connectionString": {
+			"value": ""
+		},
+		"DBlinkservice_connectionString": {
+			"value": ""
+		},
+		"dblink2_connectionString": {
+			"value": ""
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
